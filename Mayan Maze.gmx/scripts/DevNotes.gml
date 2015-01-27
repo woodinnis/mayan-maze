@@ -45,3 +45,9 @@ Set Pause scripts to Pause button events
 Placed objPauseButton into roomMain
 
 Pause Cycle functional
+
+Added Background bgMain
+
+Created sprBlocks using original Move Along tiles
+Implemented block randomization
+    - Multiple subimages will randomly be displayed when building mazes from blocks
