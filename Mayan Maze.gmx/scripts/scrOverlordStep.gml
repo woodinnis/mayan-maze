@@ -11,7 +11,7 @@ switch(global.gameState)
     case OUTRO:
     case PLAYING:
     {        
-        show_debug_message("as;difha;dfh"); // Game is active and playing
+        scrStartMenu();
         break;
     }
     case MENU:

@@ -34,3 +34,14 @@ Create scrPauseMousePressed
 
 Clicking on objBtnStart in roomMain changes gameState from PAUSED to PLAYING
 
+// 27 January 2015 //
+
+// Creating a Pause button to replace the Start Button
+// Renaming all Pause scripts for use as Start objects
+Create sprBtnPause, objBtnPause
+Duplicated scrBtnPause scripts, and renamed for used as BtnStart
+
+Set Pause scripts to Pause button events
+Placed objPauseButton into roomMain
+
+Pause Cycle functional
