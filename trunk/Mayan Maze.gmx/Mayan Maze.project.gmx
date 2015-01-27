@@ -10,8 +10,13 @@
       <sprite>sprites\sprBtnStart</sprite>
       <sprite>sprites\sprBtnPause</sprite>
     </sprites>
+    <sprites name="Blocks">
+      <sprite>sprites\sprBlocks</sprite>
+    </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bgMain</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\DevNotes.gml</script>
@@ -27,12 +32,18 @@
       <script>scripts\scrStartMenu.gml</script>
       <script>scripts\scrStartMousePressed.gml</script>
     </scripts>
+    <scripts name="Blocks">
+      <script>scripts\scrBlocksCreate.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\objOverlord</object>
     <objects name="Buttons">
       <object>objects\objBtnStart</object>
       <object>objects\objBtnPause</object>
+    </objects>
+    <objects name="Blocks">
+      <object>objects\objBlocks</object>
     </objects>
   </objects>
   <rooms name="rooms">
