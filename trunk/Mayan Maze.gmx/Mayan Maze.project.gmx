@@ -5,7 +5,11 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprites name="Buttons">
+      <sprite>sprites\sprBtnStart</sprite>
+    </sprites>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -14,9 +18,14 @@
       <script>scripts\scrOverlordStep.gml</script>
       <script>scripts\scrOverlordCreate.gml</script>
     </scripts>
+    <scripts name="Pause">
+      <script>scripts\scrPauseMenu.gml</script>
+      <script>scripts\scrPauseMousePressed.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\objOverlord</object>
+    <object>objects\objBtnStart</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\roomMain</room>

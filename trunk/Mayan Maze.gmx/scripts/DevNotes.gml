@@ -18,4 +18,19 @@ Created objOverlord
 Created scrOverlordStep, scrOverlordCreate
 Created roomMain
     - For initial testing purposes, no roomMenu will be used
+    
+Set Overlord scripts to events
+Placed Overlord into roomMain
+Set Overlord depth at -1000000
+
+Created sprBtnStart
+Created objBtnStart
+Created scrPauseMenu
+    - To handle Pause functions
+    
+Placed objBtnStart into roomMain
+Create scrPauseMousePressed
+    - To handle mouse input on the pause button
+
+Clicking on objBtnStart in roomMain changes gameState from PAUSED to PLAYING
 
