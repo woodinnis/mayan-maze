@@ -15,4 +15,8 @@ switch(global.gameState)
         break;
     }
     case MENU:
+    {
+        scrMainMenu();
+        break;
+    }
 }

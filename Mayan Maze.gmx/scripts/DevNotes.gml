@@ -51,3 +51,17 @@ Added Background bgMain
 Created sprBlocks using original Move Along tiles
 Implemented block randomization
     - Multiple subimages will randomly be displayed when building mazes from blocks
+    
+Created roomLvl1
+    - To begin rebuilding, and testing gameplay
+
+Created scrMainMenu, scrMainMousePressed
+Set global.gameState to begin at MENU 
+
+gameState MENU launches scrMainMenu
+scrMenuMousePresses currently inactive
+
+scrStartMousePressed launces roomLvl1 from roomMain
+    - Draws objBtnPause
+    - Clicking on objBtnPause does not cause scrPauseMenu to activate
+    - objBtnStart does not reappear
