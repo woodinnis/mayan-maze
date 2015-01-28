@@ -1,4 +1,2 @@
-// Handle Pause Functions
-// (Replace with more appropriate art and button)
+// Handle Main Menu Functions
 
-instance_activate_object(objBtnStart);  // Activate Pause Button

@@ -24,27 +24,22 @@
       <script>scripts\scrOverlordStep.gml</script>
       <script>scripts\scrOverlordCreate.gml</script>
     </scripts>
-    <scripts name="Pause">
-      <script>scripts\scrPauseMenu.gml</script>
-      <script>scripts\scrPauseMousePressed.gml</script>
-    </scripts>
     <scripts name="Start">
       <script>scripts\scrStartMenu.gml</script>
       <script>scripts\scrStartMousePressed.gml</script>
+      <script>scripts\scrBtnStartCreate.gml</script>
     </scripts>
     <scripts name="Blocks">
       <script>scripts\scrBlocksCreate.gml</script>
     </scripts>
     <scripts name="Menu">
       <script>scripts\scrMainMenu.gml</script>
-      <script>scripts\scrMainMousePressed.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\objOverlord</object>
     <objects name="Buttons">
       <object>objects\objBtnStart</object>
-      <object>objects\objBtnPause</object>
     </objects>
     <objects name="Blocks">
       <object>objects\objBlocks</object>

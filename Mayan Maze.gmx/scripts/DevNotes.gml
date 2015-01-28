@@ -65,3 +65,16 @@ scrStartMousePressed launces roomLvl1 from roomMain
     - Draws objBtnPause
     - Clicking on objBtnPause does not cause scrPauseMenu to activate
     - objBtnStart does not reappear
+    
+Jason has identified the error in objBtnPause
+    - Instance deactivates, causing system-wide wipe of object data
+    - Redesign of Main menu will be needed
+    
+Added Pause image to index 1 of sprBtnStart
+
+Removed instance_deactivate_object() from all Button scripts
+
+Removed objBtnPause and associated scripts
+Removed Main menu pressed script
+
+Pause button Cycle rebuilt
