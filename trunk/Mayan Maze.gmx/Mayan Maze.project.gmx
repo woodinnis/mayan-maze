@@ -35,6 +35,10 @@
     <scripts name="Blocks">
       <script>scripts\scrBlocksCreate.gml</script>
     </scripts>
+    <scripts name="Menu">
+      <script>scripts\scrMainMenu.gml</script>
+      <script>scripts\scrMainMousePressed.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\objOverlord</object>
@@ -48,6 +52,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\roomMain</room>
+    <room>rooms\roomLvl1</room>
   </rooms>
   <constants number="5">
     <constant name="PAUSED">0</constant>
