@@ -78,3 +78,15 @@ Removed objBtnPause and associated scripts
 Removed Main menu pressed script
 
 Pause button Cycle rebuilt
+
+// 3 February, 2015 //
+
+Started the process of building for resolution independence
+Using Jason Elliott's presentation as a starting point
+
+Created scrOverlordScreenSize
+
+OverlordScreenSize functional. A few minor glitches
+    - Game window spawns partially outside viewable screen area.
+    - Play surface aspect ratio requires width and height numbers to be sourced from each other.
+        ie: screenHeight must equal display_get_width() and vice-versa
