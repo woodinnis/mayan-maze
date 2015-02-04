@@ -23,6 +23,7 @@
     <scripts name="Overlord">
       <script>scripts\scrOverlordStep.gml</script>
       <script>scripts\scrOverlordCreate.gml</script>
+      <script>scripts\scrOverlordScreenSize.gml</script>
     </scripts>
     <scripts name="Start">
       <script>scripts\scrStartMenu.gml</script>
@@ -49,12 +50,14 @@
     <room>rooms\roomMain</room>
     <room>rooms\roomLvl1</room>
   </rooms>
-  <constants number="5">
+  <constants number="7">
     <constant name="PAUSED">0</constant>
     <constant name="INTRO">1</constant>
     <constant name="OUTRO">2</constant>
     <constant name="PLAYING">3</constant>
     <constant name="MENU">4</constant>
+    <constant name="GAME_HEIGHT">1024</constant>
+    <constant name="GAME_WIDTH">768</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>
